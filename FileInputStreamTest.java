@@ -7,13 +7,7 @@ import java.io.IOException;
 public class FileInputStreamTest {
 	public static void main(String[] args) throws IOException {
 		//创建字节输入流
-		
-		
-		/*
-		 * 注意，当前的路径是此工程的文件夹，也就是.setting,src,bin那些文件的所在地，打开IO_Practice文件夹就可以看到了
-		 */
-		
-		FileInputStream fis = new FileInputStream("FileInputStreamTest.java");
+		FileInputStream fis = new FileInputStream("E:/workspace2/IO_Practice/src/com/futuregong/crazy_java_Practice/FileInputStreamTest.java");
 		//创建一个长度为1024的“竹筒”
 		byte[] bbuf = new byte[1024];
 		//用于保存实际读取的字节数
